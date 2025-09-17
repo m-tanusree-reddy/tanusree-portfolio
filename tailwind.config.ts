@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+        mono: ['JetBrains Mono', 'ui-monospace', 'monospace'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -47,15 +51,21 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        // Portfolio specific colors
+        "trust-blue": {
+          DEFAULT: "hsl(var(--trust-blue))",
+          dark: "hsl(var(--trust-blue-dark))",
+          light: "hsl(var(--trust-blue-light))",
+        },
+        "growth-green": {
+          DEFAULT: "hsl(var(--growth-green))",
+          dark: "hsl(var(--growth-green-dark))",
+          light: "hsl(var(--growth-green-light))",
+        },
+        "creative-purple": {
+          DEFAULT: "hsl(var(--creative-purple))",
+          dark: "hsl(var(--creative-purple-dark))",
+          light: "hsl(var(--creative-purple-light))",
         },
       },
       borderRadius: {
