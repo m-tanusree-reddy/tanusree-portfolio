@@ -40,30 +40,30 @@ const SkillsSection = () => {
       icon: Code,
       title: "Programming Languages",
       skills: [
-        { name: "Python", level: 90 },
-        { name: "JavaScript", level: 85 },
-        { name: "SQL", level: 88 },
-        { name: "TypeScript", level: 80 },
+        { name: "Python", level: 85 },
+        { name: "JavaScript", level: 75 },
+        { name: "SQL", level: 80 },
+        { name: "TypeScript", level: 70 },
       ]
     },
     {
       icon: Database,
       title: "Data & AI",
       skills: [
-        { name: "Machine Learning", level: 85 },
-        { name: "OpenCV", level: 82 },
-        { name: "Data Analysis", level: 90 },
-        { name: "TensorFlow", level: 75 },
+        { name: "Machine Learning", level: 75 },
+        { name: "OpenCV", level: 80 },
+        { name: "Data Analysis", level: 85 },
+        { name: "TensorFlow", level: 65 },
       ]
     },
     {
       icon: Globe,
       title: "Web Development",
       skills: [
-        { name: "React", level: 88 },
-        { name: "Node.js", level: 85 },
-        { name: "Flask", level: 80 },
-        { name: "MongoDB", level: 78 },
+        { name: "React", level: 80 },
+        { name: "Node.js", level: 75 },
+        { name: "Flask", level: 85 },
+        { name: "MongoDB", level: 70 },
       ]
     },
     {
@@ -71,29 +71,29 @@ const SkillsSection = () => {
       title: "Tools & Technologies",
       skills: [
         { name: "Git", level: 85 },
-        { name: "Docker", level: 70 },
-        { name: "AWS", level: 65 },
-        { name: "Tailwind CSS", level: 90 },
+        { name: "Docker", level: 60 },
+        { name: "AWS", level: 55 },
+        { name: "Tailwind CSS", level: 80 },
       ]
     },
     {
       icon: BarChart3,
       title: "Data Visualization",
       skills: [
-        { name: "Matplotlib", level: 85 },
-        { name: "Plotly", level: 80 },
-        { name: "D3.js", level: 70 },
-        { name: "Tableau", level: 75 },
+        { name: "Matplotlib", level: 80 },
+        { name: "Plotly", level: 75 },
+        { name: "D3.js", level: 50 },
+        { name: "Tableau", level: 65 },
       ]
     },
     {
       icon: Users,
       title: "Professional Skills",
       skills: [
-        { name: "Leadership", level: 85 },
-        { name: "Problem Solving", level: 92 },
-        { name: "Communication", level: 88 },
-        { name: "Team Collaboration", level: 90 },
+        { name: "Leadership", level: 80 },
+        { name: "Problem Solving", level: 90 },
+        { name: "Communication", level: 85 },
+        { name: "Team Collaboration", level: 88 },
       ]
     }
   ];

@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { ChevronDown } from 'lucide-react';
 import heroBackground from '@/assets/hero-background.jpg';
 
 const HeroSection = () => {
@@ -38,8 +37,6 @@ const HeroSection = () => {
         backgroundAttachment: 'fixed'
       }}
     >
-      {/* Animated Particles Overlay */}
-      <div className="hero-particles" />
       
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-background/40" />
@@ -64,7 +61,7 @@ const HeroSection = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button 
-              className="btn-hero glow-on-hover"
+              className="btn-hero"
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
             >
               View My Work
@@ -78,15 +75,6 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <button
-            onClick={scrollToAbout}
-            className="p-2 rounded-full border border-primary/30 hover:border-primary transition-colors duration-300"
-          >
-            <ChevronDown className="w-6 h-6 text-primary" />
-          </button>
-        </div>
       </div>
     </section>
   );

@@ -33,9 +33,9 @@ const AchievementsSection = () => {
     },
     {
       year: "2023",
-      title: "Data Science Innovation Award",
-      category: "Technical Achievement",
-      description: "Honored for developing an advanced video analysis platform with real-time object detection capabilities",
+      title: "Technical Project Excellence",
+      category: "Innovation",
+      description: "Developed an advanced video analysis platform with real-time processing capabilities",
       icon: Award,
       color: "creative-purple"
     },
@@ -43,33 +43,17 @@ const AchievementsSection = () => {
       year: "2023",
       title: "Team Leadership Recognition",
       category: "Leadership",
-      description: "Led a cross-functional team of 5 developers in building a full-stack e-commerce solution",
+      description: "Led development team in building a comprehensive e-commerce platform with modern technologies",
       icon: Users,
       color: "growth-green"
     },
     {
       year: "2022",
-      title: "Sports Excellence - Basketball",
+      title: "Sports Achievement",
       category: "Athletics",
-      description: "Regional champion in inter-collegiate basketball tournament, demonstrating teamwork and dedication",
+      description: "Active participant in inter-collegiate sports, demonstrating teamwork and dedication",
       icon: Medal,
       color: "trust-blue"
-    },
-    {
-      year: "2022",
-      title: "Hackathon Winner",
-      category: "Competition",
-      description: "1st place in university-level hackathon for developing an AI-powered solution for sustainable agriculture",
-      icon: Target,
-      color: "growth-green"
-    },
-    {
-      year: "2021",
-      title: "Student Mentor of the Year",
-      category: "Community Service",
-      description: "Mentored 20+ junior students in programming and career development, improving their academic performance",
-      icon: Star,
-      color: "creative-purple"
     }
   ];
 
@@ -135,12 +119,10 @@ const AchievementsSection = () => {
         </div>
 
         {/* Stats Section */}
-        <div className={`grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 ${isVisible ? 'animate-scale-in' : 'opacity-0'}`} style={{ animationDelay: '1.2s' }}>
+        <div className={`grid grid-cols-2 gap-6 mt-16 ${isVisible ? 'animate-scale-in' : 'opacity-0'}`} style={{ animationDelay: '1.2s' }}>
           {[
-            { number: "6+", label: "Awards Won" },
-            { number: "3", label: "Leadership Roles" },
-            { number: "20+", label: "Students Mentored" },
-            { number: "2", label: "Years Experience" }
+            { number: "4+", label: "Awards Won" },
+            { number: "3+", label: "Projects Completed" }
           ].map((stat) => (
             <div key={stat.label} className="text-center card-hover p-6 rounded-xl">
               <div className="text-3xl md:text-4xl font-bold text-gradient-primary mb-2">

@@ -167,7 +167,7 @@ const ProjectsSection = () => {
 
         {/* View More Projects Button */}
         <div className={`text-center mt-16 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`} style={{ animationDelay: '0.8s' }}>
-          <button className="btn-ghost glow-on-hover flex items-center gap-2 mx-auto">
+          <button className="btn-ghost flex items-center gap-2 mx-auto">
             <Code2 size={16} />
             View All Projects on GitHub
           </button>

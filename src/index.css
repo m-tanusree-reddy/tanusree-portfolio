@@ -175,9 +175,6 @@
     box-shadow: var(--shadow-card-hover);
   }
   
-  .glow-on-hover:hover {
-    box-shadow: var(--glow-primary);
-  }
   
   .skill-bar {
     @apply relative overflow-hidden rounded-full h-2;
@@ -199,7 +196,7 @@
   
   .btn-hero:hover {
     transform: translateY(-2px);
-    box-shadow: var(--shadow-card-hover), var(--glow-primary);
+    box-shadow: var(--shadow-card-hover);
   }
   
   .btn-ghost {
@@ -212,7 +209,6 @@
     background: hsl(var(--accent) / 0.1);
     border-color: hsl(var(--accent));
     color: hsl(var(--accent));
-    box-shadow: var(--glow-accent);
   }
   
   /* Particle Background */
