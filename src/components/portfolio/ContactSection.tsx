@@ -256,7 +256,7 @@ const ContactSection = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="btn-hero">
-                Schedule a Call
+                Contact Me
               </button>
               <button className="btn-ghost">
                 Download Resume
