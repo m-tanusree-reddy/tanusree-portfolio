@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import heroBackground from '@/assets/hero-background.jpg';
+import heroBackground from '@/assets/hero-background-green.jpg';
 
 const HeroSection = () => {
   const [displayText, setDisplayText] = useState('');
