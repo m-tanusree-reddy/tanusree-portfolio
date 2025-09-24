@@ -130,7 +130,7 @@ const SkillsSection = () => {
       <div className="container mx-auto max-w-7xl">
         <div className={`text-center mb-16 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
           <h2 className="text-section-title mb-4">
-            Skills & <span className="text-gradient-primary">Expertise</span>
+            <span className="text-gradient-primary">Skills & Expertise</span>
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6 rounded-full"></div>
           <p className="text-body-large text-muted-foreground max-w-2xl mx-auto">

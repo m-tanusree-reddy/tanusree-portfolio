@@ -49,8 +49,8 @@ const AboutSection = () => {
     <section ref={sectionRef} id="about" className="py-20 px-6">
       <div className="container mx-auto max-w-6xl">
         <div className={`${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
-          <h2 className="text-section-title text-center mb-4">
-            About <span className="text-gradient-primary">Me</span>
+          <h2 className="text-section-title mb-4">
+            <span className="text-gradient-primary">About Me</span>
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-16 rounded-full"></div>
         </div>
