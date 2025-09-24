@@ -25,7 +25,7 @@ const AchievementsSection = () => {
   const achievements = [
     {
       year: "2024",
-      title: "Outstanding Academic Project Award",
+      title: "best mini project 2nd place library management system",
       category: "Technical Innovation",
       description: "Awarded Best Mini-Project for developing an efficient Library Management System with advanced database optimization, automated workflows, and intuitive user interface design",
       icon: Trophy,
@@ -33,7 +33,7 @@ const AchievementsSection = () => {
     },
     {
       year: "2023", 
-      title: "AI-Powered Video Analysis Platform",
+      title: "2nd place department level best mini project award for project Full-Stack Development",
       category: "Machine Learning Excellence",
       description: "Successfully engineered a web-based computer vision solution using OpenCV and Flask, implementing real-time object detection and analysis algorithms with 95% accuracy",
       icon: Award,
@@ -41,19 +41,11 @@ const AchievementsSection = () => {
     },
     {
       year: "2023",
-      title: "Full-Stack Development Leadership",
+      title: "college level best mini project 3rd place for project Full-Stack Development",
       category: "Project Management",
       description: "Led cross-functional team of 4 developers in architecting and deploying a scalable e-commerce platform using MERN stack, achieving 40% faster load times and seamless user experience",
       icon: Users,
       color: "growth-green"
-    },
-    {
-      year: "2022",
-      title: "Inter-Collegiate Sports Excellence",
-      category: "Leadership & Teamwork",
-      description: "Demonstrated exceptional teamwork and strategic thinking as key player in inter-collegiate competitions, fostering collaboration and goal-oriented mindset essential for project success",
-      icon: Medal,
-      color: "trust-blue"
     }
   ];
 
