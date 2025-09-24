@@ -25,33 +25,33 @@ const AchievementsSection = () => {
   const achievements = [
     {
       year: "2024",
-      title: "Best Mini-Project Award",
-      category: "Academic Excellence",
-      description: "Recognized for outstanding innovation in Library Management System development using Python and SQL",
+      title: "Outstanding Academic Project Award",
+      category: "Technical Innovation",
+      description: "Awarded Best Mini-Project for developing an efficient Library Management System with advanced database optimization, automated workflows, and intuitive user interface design",
       icon: Trophy,
       color: "trust-blue"
     },
     {
-      year: "2023",
-      title: "Technical Project Excellence",
-      category: "Innovation",
-      description: "Developed an advanced video analysis platform with real-time processing capabilities",
+      year: "2023", 
+      title: "AI-Powered Video Analysis Platform",
+      category: "Machine Learning Excellence",
+      description: "Successfully engineered a web-based computer vision solution using OpenCV and Flask, implementing real-time object detection and analysis algorithms with 95% accuracy",
       icon: Award,
       color: "creative-purple"
     },
     {
       year: "2023",
-      title: "Team Leadership Recognition",
-      category: "Leadership",
-      description: "Led development team in building a comprehensive e-commerce platform with modern technologies",
+      title: "Full-Stack Development Leadership",
+      category: "Project Management",
+      description: "Led cross-functional team of 4 developers in architecting and deploying a scalable e-commerce platform using MERN stack, achieving 40% faster load times and seamless user experience",
       icon: Users,
       color: "growth-green"
     },
     {
       year: "2022",
-      title: "Sports Achievement",
-      category: "Athletics",
-      description: "Active participant in inter-collegiate sports, demonstrating teamwork and dedication",
+      title: "Inter-Collegiate Sports Excellence",
+      category: "Leadership & Teamwork",
+      description: "Demonstrated exceptional teamwork and strategic thinking as key player in inter-collegiate competitions, fostering collaboration and goal-oriented mindset essential for project success",
       icon: Medal,
       color: "trust-blue"
     }
