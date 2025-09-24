@@ -42,8 +42,8 @@
     --popover: 224 35% 8%;
     --popover-foreground: 210 40% 98%;
     
-    /* Trust Blue - Primary brand color */
-    --primary: 217 91% 59%;
+    /* Growth Green - Primary brand color (changed from blue) */
+    --primary: 142 76% 36%;
     --primary-foreground: 222 47% 4%;
     
     /* Professional Blue-Gray */
@@ -53,8 +53,8 @@
     --muted: 215 25% 12%;
     --muted-foreground: 215 20% 65%;
     
-    /* Growth Green accent */
-    --accent: 142 76% 36%;
+    /* Creative Purple accent */
+    --accent: 271 76% 53%;
     --accent-foreground: 210 40% 98%;
     
     --destructive: 0 62.8% 30.6%;
@@ -62,7 +62,7 @@
     
     --border: 215 25% 15%;
     --input: 215 25% 15%;
-    --ring: 217 91% 59%;
+    --ring: 142 76% 36%;
     
     /* Custom Portfolio Colors */
     --trust-blue: 217 91% 59%;
@@ -83,10 +83,10 @@
     --surface-darker: 222 47% 4%;
     
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(217 91% 59% / 0.1), hsl(271 76% 53% / 0.1), hsl(142 76% 36% / 0.1));
+    --gradient-hero: linear-gradient(135deg, hsl(142 76% 36% / 0.1), hsl(271 76% 53% / 0.1), hsl(217 91% 59% / 0.1));
     --gradient-card: linear-gradient(145deg, hsl(224 35% 8%), hsl(215 25% 12%));
-    --gradient-primary: linear-gradient(135deg, hsl(217 91% 59%), hsl(217 91% 45%));
-    --gradient-accent: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 76% 25%));
+    --gradient-primary: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 76% 25%));
+    --gradient-accent: linear-gradient(135deg, hsl(271 76% 53%), hsl(271 76% 40%));
     
     /* Shadows and Glows */
     --shadow-card: 0 4px 6px -1px hsl(222 47% 4% / 0.3), 0 2px 4px -1px hsl(222 47% 4% / 0.15);

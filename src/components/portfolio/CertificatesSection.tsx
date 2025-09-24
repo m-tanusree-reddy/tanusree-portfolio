@@ -171,30 +171,6 @@ const CertificatesSection = () => {
           })}
         </div>
 
-        {/* Summary Stats */}
-        <div className={`grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`} style={{ animationDelay: '0.8s' }}>
-          {[
-            { icon: Award, number: "6+", label: "Professional Certificates", color: "trust-blue" },
-            { icon: BookOpen, number: "200+", label: "Hours of Learning", color: "growth-green" },
-            { icon: Code, number: "4", label: "Technical Specializations", color: "creative-purple" },
-            { icon: Database, number: "3", label: "Cloud Certifications", color: "trust-blue" }
-          ].map((stat) => {
-            const StatIcon = stat.icon;
-            return (
-              <div key={stat.label} className="text-center card-hover p-4 rounded-xl group">
-                <div className={`inline-flex items-center justify-center w-10 h-10 rounded-lg bg-${stat.color}/10 group-hover:bg-${stat.color}/20 transition-colors duration-300 mb-3`}>
-                  <StatIcon className={`w-5 h-5 text-${stat.color}`} />
-                </div>
-                <div className="text-2xl font-bold text-gradient-primary mb-1">
-                  {stat.number}
-                </div>
-                <div className="text-xs text-muted-foreground">
-                  {stat.label}
-                </div>
-              </div>
-            );
-          })}
-        </div>
       </div>
     </section>
   );

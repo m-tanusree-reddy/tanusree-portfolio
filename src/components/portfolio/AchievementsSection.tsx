@@ -118,22 +118,6 @@ const AchievementsSection = () => {
           })}
         </div>
 
-        {/* Stats Section */}
-        <div className={`grid grid-cols-2 gap-6 mt-16 ${isVisible ? 'animate-scale-in' : 'opacity-0'}`} style={{ animationDelay: '1.2s' }}>
-          {[
-            { number: "4+", label: "Awards Won" },
-            { number: "3+", label: "Projects Completed" }
-          ].map((stat) => (
-            <div key={stat.label} className="text-center card-hover p-6 rounded-xl">
-              <div className="text-3xl md:text-4xl font-bold text-gradient-primary mb-2">
-                {stat.number}
-              </div>
-              <div className="text-sm text-muted-foreground">
-                {stat.label}
-              </div>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );
